@@ -15,11 +15,11 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.addTagsView()
+        self.addTagsView(for: words)
     }
     
-    private func addTagsView() {
-        if let tagsView = self.getTagsView(for: words) {
+    private func addTagsView(for stringArray: [String]) {
+        if let tagsView = self.getTagsView(for: stringArray) {
             DispatchQueue.main.async {
                 tagsView.center = self.view.center
                 self.view.addSubview(tagsView)
