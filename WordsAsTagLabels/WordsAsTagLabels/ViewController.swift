@@ -8,13 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
+    let words = ["AAA", "bbb", "128736542376", "How are you?", "Some text", "Foo label", "Give me a star 😁", "One more label"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.addTagsView()
+    }
+    
+    private func addTagsView() {
+        if let tagsView = self.getTagsView(for: words) {
+            DispatchQueue.main.async {
+                tagsView.center = self.view.center
+                self.view.addSubview(tagsView)
+            }
+        }
     }
 
+    private func getTagsView(for words: [String]) -> UITextView? {
+        let tagFactory = TagFactory(wordsArray: words)
+        let tagViewWidth = self.view.bounds.width * 0.8
+        return tagFactory.getTagTextView(viewWidth: tagViewWidth)
+    }
 
 }
 

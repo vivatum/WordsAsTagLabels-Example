@@ -15,7 +15,7 @@
 		5AA7D8FB248983B4001C76CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA7D8F9248983B4001C76CA /* LaunchScreen.storyboard */; };
 		5AA7D906248983B4001C76CA /* WordsAsTagLabelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7D905248983B4001C76CA /* WordsAsTagLabelsTests.swift */; };
 		5AA7D911248983B4001C76CA /* WordsAsTagLabelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7D910248983B4001C76CA /* WordsAsTagLabelsUITests.swift */; };
-		5AA7D91F24898461001C76CA /* TagLabelsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7D91E24898461001C76CA /* TagLabelsFactory.swift */; };
+		5AA7D91F24898461001C76CA /* TagFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7D91E24898461001C76CA /* TagFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		5AA7D90C248983B4001C76CA /* WordsAsTagLabelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsAsTagLabelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA7D910248983B4001C76CA /* WordsAsTagLabelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsAsTagLabelsUITests.swift; sourceTree = "<group>"; };
 		5AA7D912248983B4001C76CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AA7D91E24898461001C76CA /* TagLabelsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLabelsFactory.swift; sourceTree = "<group>"; };
+		5AA7D91E24898461001C76CA /* TagFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				5AA7D8EE248983B2001C76CA /* AppDelegate.swift */,
 				5AA7D8F0248983B2001C76CA /* SceneDelegate.swift */,
 				5AA7D8F2248983B2001C76CA /* ViewController.swift */,
-				5AA7D91E24898461001C76CA /* TagLabelsFactory.swift */,
+				5AA7D91E24898461001C76CA /* TagFactory.swift */,
 				5AA7D8F4248983B2001C76CA /* Main.storyboard */,
 				5AA7D8F7248983B4001C76CA /* Assets.xcassets */,
 				5AA7D8F9248983B4001C76CA /* LaunchScreen.storyboard */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA7D91F24898461001C76CA /* TagLabelsFactory.swift in Sources */,
+				5AA7D91F24898461001C76CA /* TagFactory.swift in Sources */,
 				5AA7D8F3248983B2001C76CA /* ViewController.swift in Sources */,
 				5AA7D8EF248983B2001C76CA /* AppDelegate.swift in Sources */,
 				5AA7D8F1248983B2001C76CA /* SceneDelegate.swift in Sources */,
