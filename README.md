@@ -2,7 +2,7 @@
 [![Swift Version][swift-image]][swift-url]
 
 
-That small iOS app is my solution for case: **Creating TagLabels for words array**
+That small iOS app is my solution for the case: **Creating TagLabels for words array**
 
 ![Final TextView](/readmePics/Screenshot.png)
 
